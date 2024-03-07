@@ -4,3 +4,5 @@
 "The URLs for the challenges hosted live in this repository are provided below."
 
 <h4>Newsletter Card Component: <a href="https://newsletter-card-component-ee01.netlify.app/">https://newsletter-card-component-ee01.netlify.app/</a></h4>
+
+<h4>Google Login Page: <a href="https://g-login-page.netlify.app//">https://g-login-page.netlify.app//</a></h4>
