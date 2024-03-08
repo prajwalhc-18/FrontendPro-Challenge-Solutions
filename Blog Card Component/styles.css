@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url("./data/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  position: relative;
+  height: 100vh; /* Optional: set a specific height for centering vertically */
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-body {
+  margin-left: 0.5rem;
+}
+
+.card-body > .tech {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(255, 127, 68);
+  padding: 2px;
+  border-radius: 15px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  width: 80%;
+  margin-bottom: 1.8rem;
+}
+
+.teacher {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-data {
+  margin-right: 15px; /* Adjust as needed for spacing between image and text */
+}
+
+.teacher-img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the image round, adjust as needed */
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name h6 {
+  font-weight: 700;
+}
+
+.name h6,
+.name p {
+  margin: 0; /* Remove default margin */
+}
+
+@media (min-width: 576px) {
+  /* Apply styles for screens wider than 576px (e.g., tablets) */
+  .card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Apply styles for screens wider than 768px (e.g., small laptops) */
+  .card {
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Apply styles for screens wider than 992px (e.g., laptops) */
+  .card {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Apply styles for screens wider than 1200px (e.g., large laptops/desktops) */
+  .card {
+    width: 25%;
+  }
+}
