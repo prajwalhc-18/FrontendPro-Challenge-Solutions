@@ -3,5 +3,6 @@
 
 "The URLs for the challenges hosted live in this repository are provided below."
 
-<h4>Newsletter Card Component: <a href="https://newsletter-card-component-ee01.netlify.app/">https://newsletter-card-component-ee01.netlify.app/</a></h4>
+<h4>Newsletter Card Component: https://newsletter-card-component-ee01.netlify.app/</a></h4>
 
+<h4>Blog Card Component: https://blog-card-component-fpro.netlify.app/</h4>
