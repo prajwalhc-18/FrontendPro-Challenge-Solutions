@@ -5,4 +5,3 @@
 
 <h4>Newsletter Card Component: <a href="https://newsletter-card-component-ee01.netlify.app/">https://newsletter-card-component-ee01.netlify.app/</a></h4>
 
-<h1>Prajwal</h1>
