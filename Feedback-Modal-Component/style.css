@@ -1,0 +1,17 @@
+:root {
+  --text-color: hsl(0, 0%, 100%);
+  --primary-bg-color: hsl(248, 73%, 68%);
+  --secondary-bg-color: hsl(220, 14%, 20%);
+  --tertiary-bg-color: hsl(238, 30%, 15%);
+  --light-text-color: hsl(239, 30%, 90%);
+  --border-color: hsl(221, 22%, 29%);
+  --border-light-color: hsl(223, 23%, 83%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
