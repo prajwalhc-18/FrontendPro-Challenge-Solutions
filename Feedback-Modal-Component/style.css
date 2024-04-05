@@ -53,19 +53,28 @@ main {
 .rating div a {
   text-decoration: none;
   color: var(--text-color);
-}
-
-.like {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   display: flex;
-  justify-content: space-between;
-  width: 200px;
-  margin: 0 auto 20px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
 }
 
+.rating div a:hover,
+.rating div a.selected {
+  background-color: var(--primary-bg-color);
+  color: var(--light-text-color);
+}
+
+.like,
 .buttons {
   display: flex;
   justify-content: space-between;
   width: 200px;
+  margin: 0 auto 20px;
 }
 
 button {
