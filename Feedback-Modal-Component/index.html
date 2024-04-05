@@ -8,32 +8,32 @@
   </head>
   <body>
     <main>
-        <section class="heading">
-          <h3>
-            How likely are you to recommend FrontendPro to someone you know?
-          </h3>
-        </section>
-        <section class="rating">
-          <div><a href="">1</a></div>
-          <div><a href="">2</a></div>
-          <div><a href="">3</a></div>
-          <div><a href="">4</a></div>
-          <div><a href="">5</a></div>
-          <div><a href="">6</a></div>
-          <div><a href="">7</a></div>
-          <div><a href="">8</a></div>
-          <div><a href="">9</a></div>
-          <div><a href="">10</a></div>
-        </section>
-        <section class="like">
-          <p>Not likely at all</p>
-          <p>Extremely Likely</p>
-        </section>
-        <section class="buttons">
-          <button>Cancel</button>
-          <button>Submit</button>
-        </section>
-    </main>    
+      <section class="heading">
+        <h3>
+          How likely are you to recommend FrontendPro to someone you know?
+        </h3>
+      </section>
+      <section class="rating" id="rating">
+        <div><a href="#" onclick="rate(1)">1</a></div>
+        <div><a href="#" onclick="rate(2)">2</a></div>
+        <div><a href="#" onclick="rate(3)">3</a></div>
+        <div><a href="#" onclick="rate(4)">4</a></div>
+        <div><a href="#" onclick="rate(5)">5</a></div>
+        <div><a href="#" onclick="rate(6)">6</a></div>
+        <div><a href="#" onclick="rate(7)">7</a></div>
+        <div><a href="#" onclick="rate(8)">8</a></div>
+        <div><a href="#" onclick="rate(9)">9</a></div>
+        <div><a href="#" onclick="rate(10)">10</a></div>
+      </section>
+      <section class="like">
+        <p>Not likely at all</p>
+        <p>Extremely Likely</p>
+      </section>
+      <section class="buttons">
+        <button onclick="cancel()">Cancel</button>
+        <button onclick="submitRating()">Submit</button>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
